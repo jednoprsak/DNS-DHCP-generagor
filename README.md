@@ -1,7 +1,7 @@
 DNS_DHCP_generator is the script generating configuration files for DNS and DHCP services based on provided data. The script reads information 
 about VLANs and hosts from YAML configuration files and then generates configuration files for DNS and DHCP services based on this data.
 
-Here are some key points of the script:
+##Here are some key points of the script:
 
 * Configuration Loading: The script reads configuration files in YAML format containing information about VLANs and hosts.
 
@@ -15,7 +15,7 @@ Here are some key points of the script:
 
 * Command-Line Arguments: The script allows specifying the -v switch for logging output to standard output.
 
-Here is example of input .yaml file:
+##Here is example of input .yaml file:
 ```yaml
 desktop.farm.particle.cz:
   192.168.1.17:
@@ -173,5 +173,5 @@ VLANS = {
     ```
 
 
-How to execute script:
+##How to execute script:
 python3 dns_dhcp_generator.py
