@@ -35,6 +35,8 @@ Here is description of dhcp_generator main config which contains configuration d
     DHCP Header: Dictionary containing DHCP configuration options.
     The script covers both IPv4 and IPv6 configurations.
 
+
+'''python
 PUPPET_DIRECTORY = '/etc/puppetlabs/code/environments/production/'
 HOSTS_DIRECTORY = '/etc/puppetlabs/code/environments/production/dns-dhcp/'
 
@@ -154,5 +156,6 @@ VLANS = {
     },
    
     }
+    '''
 
   
