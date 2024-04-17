@@ -20,20 +20,20 @@ Command-Line Arguments: The script allows specifying the -v switch for logging o
 
 Here is description of dhcp_generator main config which contains configuration details for different VLANs, including network information, regular expressions for IP addresses, DNS settings, reverse DNS file names, DHCP configurations, and more. It serves as a template for generating DNS and DHCP configuration files based on VLAN information. Here's a breakdown:
 
-    Puppet Directories: Specifies the directories for Puppet configuration and DNS-DHCP configuration.
-    File Base: Specifies the base directory for files.
-    VLANs: A dictionary containing details for each VLAN.
+* Puppet Directories: Specifies the directories for Puppet configuration and DNS-DHCP configuration.
+* File Base: Specifies the base directory for files.
+* VLANs: A dictionary containing details for each VLAN.
         Each VLAN is keyed by its identifier (e.g., '10.10.11').
         For each VLAN, the following details are provided:
-    Network: CIDR notation for the VLAN's network.
-    Regex: Regular expression for matching IP addresses in the VLAN.
-    DNS: Boolean indicating whether DNS is enabled for the VLAN.
-    Forward File: Filename for the forward DNS zone file.
-    Forward Origins: List of forward DNS zone file origins.
-    Reverse File: Filename for the reverse DNS zone file.
-    Reverse Origins: List of reverse DNS zone file origins.
-    DHCP Header: Dictionary containing DHCP configuration options.
-    The script covers both IPv4 and IPv6 configurations.
+* Network: CIDR notation for the VLAN's network.
+* Regex: Regular expression for matching IP addresses in the VLAN.
+* DNS: Boolean indicating whether DNS is enabled for the VLAN.
+* Forward File: Filename for the forward DNS zone file.
+* Forward Origins: List of forward DNS zone file origins.
+* Reverse File: Filename for the reverse DNS zone file.
+* Reverse Origins: List of reverse DNS zone file origins.
+* DHCP Header: Dictionary containing DHCP configuration options.
+* The script covers both IPv4 and IPv6 configurations.
 
 
 ```python
