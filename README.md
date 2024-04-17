@@ -175,4 +175,6 @@ VLANS = {
 
 
 ## How to execute script:
+```bash
 python3 dns_dhcp_generator.py
+```
