@@ -59,7 +59,7 @@ VLANS = {
     '10.10.11':{
       'network': '10.10.11.0/24',
       'regex': re.compile('0?10[\.]0?10[\.]0?11[\.]'),
-      'dns': True,
+      'dns': True,dns_dhcp_generator.py
       'fwd_file' : 'monitor.inside.zone',
       'fwd_origins': ['monitor.'],
       'rev_file' : '10.10.11.inside.revzone',
@@ -174,5 +174,5 @@ VLANS = {
     ```
 
 
-##How to execute script:
+## How to execute script:
 python3 dns_dhcp_generator.py
