@@ -1,7 +1,7 @@
 DNS_DHCP_generator is the script generating configuration files for DNS and DHCP services based on provided data. The script reads information 
 about VLANs and hosts from YAML configuration files and then generates configuration files for DNS and DHCP services based on this data.
 
-##Here are some key points of the script:
+## Here are some key points of the script:
 
 * Configuration Loading: The script reads configuration files in YAML format containing information about VLANs and hosts.
 
@@ -15,7 +15,7 @@ about VLANs and hosts from YAML configuration files and then generates configura
 
 * Command-Line Arguments: The script allows specifying the -v switch for logging output to standard output.
 
-##Here is example of input .yaml file:
+## Here is example of input .yaml file:
 ```yaml
 desktop.farm.particle.cz:
   192.168.1.17:
@@ -30,7 +30,8 @@ notebook.farm.particle.cz:
 ```
 
 
-Here is description of dhcp_generator main config which contains configuration details for different VLANs, including network information, regular expressions for IP addresses, DNS settings, reverse DNS file names, DHCP configurations, and more. It serves as a template for generating DNS and DHCP configuration files based on VLAN information. Here's a breakdown:
+## Here is description of dhcp_generator main config 
+which contains configuration details for different VLANs, including network information, regular expressions for IP addresses, DNS settings, reverse DNS file names, DHCP configurations, and more. It serves as a template for generating DNS and DHCP configuration files based on VLAN information. Here's a breakdown:
 
 * Puppet Directories: Specifies the directories for Puppet configuration and DNS-DHCP configuration.
 * File Base: Specifies the base directory for files.
