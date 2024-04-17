@@ -1,4 +1,4 @@
-This script appears the tool for generating configuration files for DNS and DHCP services based on provided data. The script reads information 
+This script is the tool for generating configuration files for DNS and DHCP services based on provided data. The script reads information 
 about VLANs and hosts from YAML configuration files and then generates configuration files for DNS and DHCP services based on this data.
 
 Here are some key points of the script:
