@@ -15,7 +15,19 @@ Here are some key points of the script:
 
 * Command-Line Arguments: The script allows specifying the -v switch for logging output to standard output.
 
-
+Here is example of input .yaml file:
+```yaml
+desktop.farm.particle.cz:
+  192.168.1.17:
+  - 08:00:27:AB:CD:EF
+  fe80::a00:27ff:feab:cdef:
+  - 08:00:27:AB:CD:EF
+notebook.farm.particle.cz:
+  10.0.0.20:
+  - 00:1A:2B:3C:4D:5E
+  fe80::021a:2bff:fe3c:4d5e:
+  - 00:1A:2B:3C:4D:5E
+```
 
 
 Here is description of dhcp_generator main config which contains configuration details for different VLANs, including network information, regular expressions for IP addresses, DNS settings, reverse DNS file names, DHCP configurations, and more. It serves as a template for generating DNS and DHCP configuration files based on VLAN information. Here's a breakdown:
