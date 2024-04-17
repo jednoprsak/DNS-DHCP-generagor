@@ -17,12 +17,12 @@ about VLANs and hosts from YAML configuration files and then generates configura
 
 ## Here is example of input .yaml file:
 ```yaml
-desktop.farm.particle.cz:
+desktop.example.prague.cz:
   192.168.1.17:
   - 08:00:27:AB:CD:EF
   fe80::a00:27ff:feab:cdef:
   - 08:00:27:AB:CD:EF
-notebook.farm.particle.cz:
+notebook.example.prague.cz:
   10.0.0.20:
   - 00:1A:2B:3C:4D:5E
   fe80::021a:2bff:fe3c:4d5e:
